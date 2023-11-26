@@ -1,0 +1,90 @@
+.container{
+	margin: 50px auto;
+	width: 450px;
+	background-color: rgba(0, 0, 0, 0.919);
+	color: white;
+	border-radius: 10px;
+	padding: 5px;
+	border: none;
+	text-align: center;
+	justify-content: center;
+	box-shadow: 5px 0px 15px grey;
+	
+}
+.container input{
+	box-sizing: border-box;
+	width: 90%;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 7px;
+	text-align: center;
+	justify-content: center;
+	font-size: larger;
+	
+}
+.flexbtn{
+	display: flex;
+	margin: 5px auto;
+	justify-content: space-evenly;
+	
+}
+.flexbtn button{
+	margin: 4px;
+	padding: 8px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(7, 170, 7);
+	border-radius: 4px;
+	align-items: center;
+	border: none;
+	font-size: large;
+	cursor: pointer;
+
+}
+.flexbtn button:hover{
+	background-color: rgb(28, 207, 28);
+	/* border: 1px solid grey; */
+	box-shadow: 5px 0px 8px grey;
+	transform: 0.3 ease;
+}
+.btn4{
+	font-weight: bold;
+}
+.btn5{
+	font-style: italic;
+}
+
+.btn6{
+	text-decoration: underline;
+}
+.answer{
+	width: 90%;
+	border-radius: 10px;
+	padding: 1px;
+	margin: 25px auto;
+	justify-content: center;
+	text-align: center;
+	background-color: rgb(70, 70, 70);
+	color: white;
+}
+.answer p{
+	font-size: large;
+}
+
+.capitalize{
+	text-transform: uppercase;
+}
+.small{
+	text-transform: lowercase;
+}
+.underline{
+	text-decoration: underline;
+}
+.semicaps{
+	text-transform: capitalize;
+}
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
